@@ -1,0 +1,29 @@
+.class {
+    height: 350px;
+    width: 350px;
+    background-color: orange;
+    display: inline-block;
+    overflow: scroll;
+    animation-name: mycolor;
+    animation-duration: 5s;
+    /* transition-property: background-color, width;
+    transition-duration: 5s, 2s; */
+    /* transition: background-color 5s, width 2s, color 1s;  */
+}
+
+a[href^="./p"]{
+    background-color: red;
+}
+
+@keyframes mycolor {
+    to {
+    background-color: red;
+    width: 200px;
+    }
+}
+
+/* .class:hover{
+    background-color: blue;
+    width: 200px;
+    color: white;
+} */
